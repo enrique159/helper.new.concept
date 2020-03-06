@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:helper_new_concept/Model/colors_system.dart';
+import 'package:neumorphic/neumorphic.dart';
 
 class Inicio extends StatefulWidget {
   Inicio({Key key}) : super(key: key);
@@ -111,24 +112,159 @@ class _InicioState extends State<Inicio> {
               Padding(
                 padding: const EdgeInsets.only(top: 12.0),
                 child: Row(
+                  mainAxisAlignment: MainAxisAlignment.spaceBetween,
                   children: <Widget>[
                     InkWell(
-                      child: Container(
-                        decoration: BoxDecoration(
-                          color: Colors.white,
-                          borderRadius: new BorderRadius.all(const Radius.circular(12.0)),
-                          boxShadow: [
-                            BoxShadow(
-                              color: CompanyColors.colores[7],
-                              blurRadius: 14.0,
+                      splashColor: CompanyColors.colores[6],
+                      onTap: () {},
+                      borderRadius:
+                          BorderRadius.all(const Radius.circular(14.0)),
+                      child: Padding(
+                        padding: const EdgeInsets.all(4.0),
+                        child: Container(
+                          width: 56.0,
+                          height: 56.0,
+                          decoration: BoxDecoration(
+                            color: Colors.white,
+                            borderRadius: new BorderRadius.all(
+                                const Radius.circular(12.0)),
+                            boxShadow: [
+                              BoxShadow(
+                                color: CompanyColors.colores[7],
+                                blurRadius: 14.0,
+                              ),
+                            ],
+                          ),
+                          child: Padding(
+                            padding: const EdgeInsets.all(12.0),
+                            child: Image(
+                              image: AssetImage('assets/plomeria.png'),
+                              height: 36.0,
                             ),
-                          ],
+                          ),
                         ),
-                        child: Padding(
-                          padding: const EdgeInsets.all(8.0),
-                          child: Image(
-                            image: AssetImage('assets/plomeria.png'), 
-                            height: 48.0,
+                      ),
+                    ),
+                    InkWell(
+                      splashColor: CompanyColors.colores[6],
+                      onTap: () {},
+                      borderRadius:
+                          BorderRadius.all(const Radius.circular(14.0)),
+                      child: Padding(
+                        padding: const EdgeInsets.all(4.0),
+                        child: Container(
+                          width: 56.0,
+                          height: 56.0,
+                          decoration: BoxDecoration(
+                            color: Colors.white,
+                            borderRadius: new BorderRadius.all(
+                                const Radius.circular(12.0)),
+                            boxShadow: [
+                              BoxShadow(
+                                color: CompanyColors.colores[7],
+                                blurRadius: 14.0,
+                              ),
+                            ],
+                          ),
+                          child: Padding(
+                            padding: const EdgeInsets.all(12.0),
+                            child: Image(
+                              image: AssetImage('assets/electricidad.png'),
+                              height: 36.0,
+                            ),
+                          ),
+                        ),
+                      ),
+                    ),
+                    InkWell(
+                      splashColor: CompanyColors.colores[6],
+                      onTap: () {},
+                      borderRadius:
+                          BorderRadius.all(const Radius.circular(14.0)),
+                      child: Padding(
+                        padding: const EdgeInsets.all(4.0),
+                        child: Container(
+                          width: 56.0,
+                          height: 56.0,
+                          decoration: BoxDecoration(
+                            color: Colors.white,
+                            borderRadius: new BorderRadius.all(
+                                const Radius.circular(12.0)),
+                            boxShadow: [
+                              BoxShadow(
+                                color: CompanyColors.colores[7],
+                                blurRadius: 14.0,
+                              ),
+                            ],
+                          ),
+                          child: Padding(
+                            padding: const EdgeInsets.all(12.0),
+                            child: Image(
+                              image: AssetImage('assets/automotriz.png'),
+                              height: 36.0,
+                            ),
+                          ),
+                        ),
+                      ),
+                    ),
+                    InkWell(
+                      splashColor: CompanyColors.colores[6],
+                      onTap: () {},
+                      borderRadius:
+                          BorderRadius.all(const Radius.circular(14.0)),
+                      child: Padding(
+                        padding: const EdgeInsets.all(4.0),
+                        child: Container(
+                          width: 56.0,
+                          height: 56.0,
+                          decoration: BoxDecoration(
+                            color: Colors.white,
+                            borderRadius: new BorderRadius.all(
+                                const Radius.circular(12.0)),
+                            boxShadow: [
+                              BoxShadow(
+                                color: CompanyColors.colores[7],
+                                blurRadius: 14.0,
+                              ),
+                            ],
+                          ),
+                          child: Padding(
+                            padding: const EdgeInsets.all(12.0),
+                            child: Image(
+                              image: AssetImage('assets/jardin.png'),
+                              height: 36.0,
+                            ),
+                          ),
+                        ),
+                      ),
+                    ),
+                    InkWell(
+                      splashColor: CompanyColors.colores[6],
+                      onTap: () {},
+                      borderRadius:
+                          BorderRadius.all(const Radius.circular(14.0)),
+                      child: Padding(
+                        padding: const EdgeInsets.all(4.0),
+                        child: Container(
+                          width: 56.0,
+                          height: 56.0,
+                          decoration: BoxDecoration(
+                            color: Colors.white,
+                            borderRadius: new BorderRadius.all(
+                                const Radius.circular(12.0)),
+                            boxShadow: [
+                              BoxShadow(
+                                color: CompanyColors.colores[7],
+                                blurRadius: 14.0,
+                              ),
+                            ],
+                          ),
+                          child: Padding(
+                            padding: const EdgeInsets.all(12.0),
+                            child: Image(
+                              image: AssetImage('assets/limpieza.png'),
+                              height: 36.0,
+                            ),
                           ),
                         ),
                       ),

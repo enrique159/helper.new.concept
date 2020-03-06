@@ -20,6 +20,8 @@ dependencies:
   flutter:
     sdk: flutter
   bottom_navy_bar: ^5.3.2
+  provider: ^4.0.4
+  neumorphic: ^0.1.2
 
   # The following adds the Cupertino Icons font to your application.
   # Use with the CupertinoIcons class for iOS style icons.
